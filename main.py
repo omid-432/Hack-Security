@@ -1,10 +1,11 @@
 import pyfiglet
 import ddos.main as ddos
+import Phishing.main as fish
 
 def load():
 	print(pyfiglet.figlet_format("Hack"))
 	print("[1] DDoS attack")
-	print("[2] SMS Spamer")
+	print("[2] Phishing")
 	result = input("[*] Enter a number: ")
 	if result == '1':
 		input1 = input("Enter the target ip: ")
@@ -15,5 +16,6 @@ def load():
 		ddosClass.attack()
 		load()
 	if result == '2'
-    	print('Coming soon!!')
+    	fish.Start()
+		load()
 load()
