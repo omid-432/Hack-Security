@@ -16,6 +16,6 @@ def load():
 		ddosClass.attack()
 		load()
 	if result == '2'
-    	fish.Start()
+		fish.Start()
 		load()
 load()
